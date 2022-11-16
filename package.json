@@ -1,0 +1,18 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Portfolio Website Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./CSS/src/input.css -o ./CSS/output/output.css --watch "
+  },
+  "author": "Anubhav Pathak",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "flowbite": "^1.5.3"
+  }
+}
